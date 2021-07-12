@@ -1,0 +1,59 @@
+* {
+  padding: 0.2em;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Allerta Stencil", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+h3 {
+  color: white;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* max-height: 600px; */
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 2px solid white; */
+}
+
+button {
+  padding: 0.7em;
+  border-radius: 10px;
+  background-color: #262449;
+}
+
+.row {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.adjusters {
+  font-size: 3em;
+  padding: 0;
+}
+
+#time-left {
+  font-size: 4em;
+  padding: 0;
+  text-align: center;
+}
+
+#timer-label {
+  text-align: center;
+}
+
+.timer-box {
+  width: 70%;
+  border: 5px solid yellow;
+  border-radius: 20%;
+  padding: 0.3em 1.7em;
+}
