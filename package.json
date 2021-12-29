@@ -1,6 +1,7 @@
 {
   "homepage": "https://NickP2791.github.io/pomodoro-react",
   "name": "pomodoro-js",
+  "author": "Nicolas Pauletto"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
